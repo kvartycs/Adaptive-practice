@@ -1,0 +1,18 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "Pavel",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.7"
+  }
+}
